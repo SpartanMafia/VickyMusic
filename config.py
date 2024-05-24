@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Danishzain05/SpartanMusic",
+    "https://github.com/SpartanMafia/VickyMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/StatusWorld_05")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/StatusWorld_05")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botverse_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/botverse_support")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -83,10 +83,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/692412946a8885d6e1836.jpg"
+    "START_IMG_URL", "https://graph.org/file/9af3fe5e42e589665417c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/2775e4cd10bab5cb0a24f.jpg"
+    "PING_IMG_URL", "https://graph.org/file/d43465f9263dfda23089c.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://graph.org/file/692412946a8885d6e1836.jpg"
